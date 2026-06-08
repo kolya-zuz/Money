@@ -1,0 +1,128 @@
+* {
+    margin: 0;}
+
+#sizes { 
+    margin-top: 20px;}
+
+.sizes_slider-wrapper { 
+    border: 2px solid #ffea00; border-radius: 12px; 
+box-shadow: 0 0 30px 5px #ffea004d, inset 0 0 30px 5px #ffea004d; position: relative;}
+
+.sizes_slide-inner { 
+    display: flex; justify-content: center; align-items: center; width: 100%;}
+
+.container { 
+    width: min(1240px); margin: 0 auto;}
+.order-block{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;}
+.h1 {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 600; font-size: 60px;
+     text-transform: uppercase; color:#fff;}
+
+.h3 { 
+    font-family: "Montserrat", sans-serif; 
+    color: #fff; font-weight: 600; 
+    font-size: clamp(24px, 1.023rem + 2.04vw, 32px); 
+    text-transform: uppercase; margin-top: 60px;}
+
+.h32 { 
+    margin-top: 40px;}
+
+.h4 { 
+    font-family: "Montserrat", sans-serif; font-weight: 400; font-size: 16px;
+    line-height: 130%; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #ffffff;}
+.h42 {
+     color: #C9C69B;}
+
+.p1 {
+    font-family: "Montserrat", sans-serif; 
+    color:#fff; font-weight: 300;
+    font-size: 16px; line-height: 140%; margin-top: 20px;}
+
+#s1 {
+    font-weight: 600; color: #ffea00;}
+
+.div1 { 
+    display: flex; justify-content: space-between; width: 845px; margin-top: 40px;}
+.div2 {
+    width: 970px; height: 60px; display: flex; margin-top: 20px; gap: 220px;}
+.div3 { 
+    width: 318px; height: 59px; display: flex; justify-content: space-between; margin-top: 40px;}
+.sizes2 { 
+    display: flex; gap: 10px;}
+.sizes3 { 
+    display: flex; gap: 10px; }
+.size1,.size2 {
+    font-family: "Montserrat", sans-serif; font-weight: 400; font-size: 16px;
+    line-height: 130%; letter-spacing: 0.1em; }
+.size1,.size2 { 
+    border: 1px solid #ffffff; border-radius: 12px; 
+    height: 60px; width: 60px;
+    background-color: #2A2A29; color: #fff;
+    box-shadow: 0 0 5px 2px #FFFFFF4D,
+    inset 0 0 5px 2px #FFFFFF4D;
+    transition: border-color 0.3s, box-shadow 0.3s;}
+.size2 { 
+    border-color: #5D5D56; color: #5D5D56; cursor: not-allowed; 
+         box-shadow: 0 0 5px 2px #5d5d564d, inset 0 0 5px 2px #5d5d564d;}
+
+.size1:hover { 
+            border: 1px solid #FFEA00;
+               box-shadow: 0 0 5px 2px #FFEA004D,
+               inset 0 0 5px 2px #FFEA004D;}
+
+.size12 { 
+          color: #FFEA00; border: 1px solid #FFEA00; 
+          box-shadow: 0 0 5px 2px #FFEA004D,
+          inset 0 0 5px 2px #FFEA004D;}
+
+.buttons { 
+    color: #fff; stroke: currentColor; position: absolute; top: 50%; transform: translateY(-50%) rotate(180deg); z-index: 2; border: none; 
+background: none; }
+.buttons:hover { 
+    color: #ffea00;}
+.buy { 
+    border-radius: 4px; background-color: #FFEA00; 
+    font-family: "Montserrat", sans-serif;
+    width: 249px; height: 59px;
+    font-weight: 600; font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s; }
+.buy:hover, .basket:hover { 
+    border-color: #FFEA00; box-shadow: 0 0 12px 0 #FFEA00 ;}
+.basket {
+        border: 1px solid #FFEA00;
+        border-radius: 4px;
+        width: 59px; height: 59px;
+        background-color: #2A2A29;}
+.zakaz {
+    font-family: "Montserrat", sans-serif;
+    color: #fff; font-weight: 400;
+    font-size: 13px; line-height: 130%;
+    text-decoration: none; padding-bottom: 5px;
+    border-bottom: #FFF 1px solid;
+    margin-top:35px;}
+.zakaz:hover { 
+    color: #FFEA00; border-color: #FFEA00; transition: 0.3s;}
+
+.prev { 
+    left: 40px;} 
+.next { 
+    right: 40px;}
+
+@media (width > 768px) { 
+    .sizes_slider-wrapper { padding-top: 46px; padding-bottom: 57px;}}
+@media (width <=768px) { 
+    .sizes_slider-wrapper { padding-block: 50px; margin-bottom: 40px;}}
+@media (width > 576px) {
+    .section { margin-bottom: 140px;} 
+    .section-title { margin-bottom: 40px;}}
+@media (width <=576px) {
+    .section {margin-bottom:  80px;}
+    .section-title { margin-bottom: 30px;}}

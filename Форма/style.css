@@ -1,0 +1,7 @@
+fieldset { width: 450px; border-radius: 10px;}
+input { display: block; margin-block: 10px; border-radius: 10px; width: 330px; height: 25px;}
+textarea { display: block; width: 330px; margin-top: 10px; border-radius: 10px; resize: vertical; min-height: 50px; max-height: 230px; margin-bottom: 10px;}
+.input { margin-right: 30px;}
+.label { margin-left: 35px; }
+.inputs { margin-left: -150px; margin-top: -23px; }
+button { padding: 5px 10px; cursor: pointer;}

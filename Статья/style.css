@@ -1,0 +1,225 @@
+* { position: relative;}
+
+
+body { margin: 0; 
+       margin-inline: auto;
+       height: 2483px; 
+       width: 1220px; 
+       overflow-x: hidden;}
+
+header {height: 105px;   
+        border-bottom: #ffffff 2px groove;}
+
+.img1 { height: 45px; 
+        width: 84px; 
+        margin-top: 30px; 
+        display: inline;}
+
+.img2 { height: 513px; 
+        width: 347px;
+        left: 515px;
+        bottom: 340px;}
+
+.img3 { height: 513px;
+        width: 353px;
+        left: 510px;
+        bottom: 340px;}
+        
+.img4 { left: 77px;
+        bottom: 640px; }
+
+.img5 { height: 203px;
+        width: 284px;}
+        
+.img6 { bottom: 37px;
+        left: 114px;}        
+
+h3 { font-family: "Ubuntu", sans-serif; 
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 14px; 
+    text-transform: uppercase;
+    width: 240px;
+    color: #858E8A;
+    top: 6px;
+    right: 100px;}
+
+.h4 { font-family: "Ubuntu", sans-serif; 
+     font-weight: 500;
+     font-style: normal; 
+     font-size: 18px;
+     color: #2C332F;
+     right: 30px;
+     bottom: 10px;}
+
+div { bottom: 66px; 
+      left: 1100px;}
+
+h1 { font-family: "Oswald", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     text-transform: uppercase;
+     font-size: 62px;
+     line-height: 115%;
+     color: #2C332F;}
+
+span { color: #3596ED}
+
+.sec1 { margin-top: 80px;}
+
+.p1 { color: #535755;
+     font-family: "Ubuntu", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 130%;}
+
+button { background-color: #3596ED;
+         height: 57px;
+         width: 270px;
+         font-family: "Ubuntu", sans-serif;
+         font-weight: 500;
+         font-style: normal;
+         font-size: 15px;
+         line-height: 130%;
+         letter-spacing: 2%;
+         text-transform: uppercase;
+         color: #FFFFFF;
+         right: 875px;
+         bottom: 335px;
+         border: none;}
+
+h2 { font-family: "Oswald", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     text-transform: uppercase;
+     font-size: 48px;
+     line-height: 115%;
+     color: #2C332F;}
+
+.h2 { bottom: 245px;}
+
+.h21 { bottom: 1186px;}
+
+article { bottom: 240px;
+          border: 2px #D3CBD9 solid;
+          width: 284px;
+          height: 342px;}
+          
+.p2 { font-family: "Ubuntu", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 14px;
+      letter-spacing: 4%;
+      color: #858E8A;
+      left: 20px;}    
+      
+.p3 { font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 130%;
+      color: #2C332F;
+      left: 20px;}
+
+.p4 { font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 130%;
+      color: #3596ED;
+      left: 20px; }
+
+.art1 { left: 314px;
+        bottom: 585px;}
+
+.art2 { left: 628px;
+        bottom: 930px;}
+
+.art3 { left: 942px;
+        bottom: 1275px;}
+
+.img7 { bottom: 1191px;}
+
+.h41 { font-family: "Oswald", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       text-transform: uppercase;
+       font-size: 24px;
+       line-height: 115%;
+       color: #2C332F;
+       bottom: 16px;
+       left: 20px;}
+
+.sec2 { width: 700px;
+        height: 151px;
+        bottom: 1727px;
+        left: 520px;
+        border-block: 2px #D3CBD9 solid;}
+
+.strelka { bottom: 150px;
+           left: 664px;} 
+
+.sec3 { height: 68px;
+        width: 700px;
+        border-block: 2px #D3CBD9 solid;
+        bottom: 1707px;
+        left: 520px;}
+
+.h42 { font-family: "Oswald", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       text-transform: uppercase;
+       font-size: 24px;
+       line-height: 115%;
+       color: #2C332F;
+       bottom: 16px;
+       left: 20px;}
+
+.img8 { bottom: 71px;
+        left: 665px;
+        transform: rotate(180deg) }
+
+.sec4 { height: 68px;
+        width: 700px;
+        border-block: 2px #D3CBD9 solid;
+        bottom: 1687px;
+        left: 520px;}
+
+.h43 { font-family: "Oswald", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       text-transform: uppercase;
+       font-size: 24px;
+       line-height: 115%;
+       color: #2C332F;
+       bottom: 16px;
+       left: 20px;}
+
+.sec5 { height: 68px;
+        width: 700px;
+        border-block: 2px #D3CBD9 solid;
+        bottom: 1667px;
+        left: 520px;}
+
+.sec6 { height: 96px;
+        width: 700px;
+        border-block: 2px #D3CBD9 solid;
+        bottom: 1647px;
+        left: 520px;}
+
+.img9 { bottom: 81px;
+        left: 665px;
+        transform: rotate(180deg)}
+
+footer { height: 302.32px;
+         width: 1870px;
+         right: 200px;
+         background: linear-gradient(90deg, rgba(73, 169, 255, 0.2) 
+         0%, rgba(252, 124, 217, 0.2) 100%);
+         bottom: 1523px;}
+
+.img10 { height: 45px; 
+         width: 84px;
+         left: 761.82px;
+         top: 35px}
