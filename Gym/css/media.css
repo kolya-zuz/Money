@@ -1,0 +1,54 @@
+@media (max-width: 1330px) {
+#nav1 {margin-left: 1150px;} #pulse {margin-left: 50px;}}
+
+@media (max-width: 1300px) {
+#nav1 { margin-left: 1130px;}}
+
+@media (max-width: 1275px) {
+#nav1 { margin-left: 1105px;}}
+
+@media (max-width: 1250px) {
+#ul1 { gap: 25px;} #nav1 {margin-left: 1070px;}}
+
+@media (max-width: 1225px) {
+#nav1 { margin-left: 1045px;}}
+
+@media (max-width: 1195px) {
+#nav1 { margin-left: 1010px;}}
+
+@media (max-width: 1160px) {
+#nav1 { margin-left: 975px;}}
+
+@media (max-width: 1130px) {
+#nav1 {margin-left: 945px;} #ul1 {margin-left: 245px;}}
+
+@media (max-width: 1090px) {
+#ul1 {
+position: fixed; top: 137px; left: 0;
+width: 180px; height: 400px;
+background: #141414;
+display: flex; gap: 25px;
+flex-direction: column;
+padding: 20px 25px; margin: 0;
+transform: translateX(-110%);
+transition: 0.3s ease;}
+#menu {display: block;} 
+#ul1.active { transform: translateX(0);}
+#nav1 {
+    width: 159px; height: 33px; margin-left: 0; 
+position: absolute; right: 20px; margin-top: -40px;}}
+
+@media (max-width: 800px) { 
+#nav1 {margin-left: 72vw;}}
+
+@media (max-width: 670px) { 
+#nav1 {margin-left: 69vw;}}
+
+@media (max-width: 590px) { 
+#nav1 {margin-left: 66vw;}}
+
+@media (max-width: 500px) { 
+#nav1 {margin-left: 67vw;} #pulse {margin-left: 10px;}}
+
+@media (max-width: 395px) { 
+#nav1 {gap: 8px; margin-left: 70vw;} }
