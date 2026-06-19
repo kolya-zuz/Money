@@ -6,7 +6,7 @@
 
 #sec1-title {
             font-family: "Oswald", sans-serif; font-weight: 600;
-            font-size: 158px; line-height: 98%; color: #fff; width: 1200px; }
+            font-size: 158px; line-height: 98%; color: #fff; max-width: 1200px; }
 
 #within { 
         font-family: "Oswald", sans-serif; font-weight: 600; font-size: 305px; 
@@ -14,21 +14,24 @@
         z-index: -1; bottom: 250px; position: relative; left: 483px; max-width: 900px;}
 
 #gym1 {
-       height: 519px; max-width: 1520px; bottom: 122px; position: relative;}
+       height: 519px; bottom: 122px; position: relative; max-width: 1520px; }
 
 #arrow1 { 
-    margin-inline: 719.2px; bottom: 705px; position: relative;}
+    position: relative; bottom: 705px; position: relative; left: calc(50% - 50px);}
 
 #arrow2 {
-         left: 439.2px; bottom: 33px; position: relative;}
+         left: 439.2px; bottom: 33px; position: relative; color: #141414;}
 
 #sec1-cards {
             max-width: 1520px; height: 396px; background-color: #FFF; 
-            bottom: 252px; position: relative; display: flex;}
+            bottom: 252px; position: relative; display: flex; border-bottom: 2px solid #141414;}
 
 #sec1-card {
              width: 508.8px; height: 396px;}
-
+#sec1-card:hover #sec1-h6,
+#sec1-card:hover #arrow2 {
+    color: #F47521;}
+    
 #sec1-h4 { 
 font-family: "Archivo", sans-serif; font-weight: 600;
 font-size: 20px; letter-spacing: 0.2em; color: #f47521; 
@@ -42,3 +45,5 @@ left: 36px; top: 36px; position: relative; }
           font-family: "Archivo", sans-serif; font-weight: 700;
           font-size: 16px; line-height: 144%; color: #141414;
           letter-spacing: 0.1em; margin: 176.28px 0 0 36px;}
+
+

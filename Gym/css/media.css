@@ -1,5 +1,12 @@
-@media (max-width: 1330px) {
-#nav1 {margin-left: 1150px;} #pulse {margin-left: 50px;}}
+@media (max-width: 1360px) {
+#nav1 {
+    margin-left: 1150px;} 
+#pulse {
+    margin-left: 50px;}
+#sec1-title { font-size: 146; margin-left: 20px;}
+#within { font-size: 220; margin-left: 20px;}
+#gym1 { width: 1360px; height: 300px;}
+#arrow2 { margin-inline: 50%;}}
 
 @media (max-width: 1300px) {
 #nav1 { margin-left: 1130px;}}
@@ -23,19 +30,17 @@
 #nav1 {margin-left: 945px;} #ul1 {margin-left: 245px;}}
 
 @media (max-width: 1090px) {
-#ul1 {
-position: fixed; top: 137px; left: 0;
-width: 180px; height: 400px;
-background: #141414;
-display: flex; gap: 25px;
-flex-direction: column;
-padding: 20px 25px; margin: 0;
-transform: translateX(-110%);
-transition: 0.3s ease;}
-#menu {display: block;} 
-#ul1.active { transform: translateX(0);}
+#ul1 { 
+position: fixed; top: 137px; left: 0; z-index: 6; width: 180px; 
+height: 400px; background: #141414; display: flex; gap: 25px;
+flex-direction: column; padding: 20px 25px; margin: 0;
+transform: translateX(-110%); transition: 0.3s ease;}
+#menu {
+    display: block;} 
+#ul1.active { 
+    transform: translateX(0);}
 #nav1 {
-    width: 159px; height: 33px; margin-left: 0; 
+width: 159px; height: 33px; margin-left: 0; 
 position: absolute; right: 20px; margin-top: -40px;}}
 
 @media (max-width: 800px) { 

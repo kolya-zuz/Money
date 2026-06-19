@@ -1,8 +1,13 @@
 @import url("header.css");
 @import url("media.css");
 @import url("sec1.css");
+@import url("sec3.css");
+@import url("sec4.css");
 
 * { 
     margin: 0;}
+
+body {
+      overflow-x: hidden;}
 
     
