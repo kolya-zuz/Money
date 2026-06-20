@@ -1,0 +1,17 @@
+#sec5 {
+       width: 940px;}
+
+#sec5 span {
+            font-family: "Archivo", sans-serif; font-weight: 700;
+            font-size: 16px; line-height: 144%; color: #141414;
+            letter-spacing: 0.1em; text-transform: uppercase;}
+
+#sec5 #main {
+             width: 768px; height: 665px;}
+
+#sec5 #sticker { 
+            width: 158px; height: 158px; position: relative; z-index: 2; 
+            left: 683px; bottom: 420px;}
+
+
+

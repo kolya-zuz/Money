@@ -30,10 +30,10 @@
     flex-shrink: 0;
     margin-top: 20px;}
 
-#photos {
+#sec3 #photos {
          display: flex; justify-content: center;}
 
-#photos img { 
+#sec3 #photos img { 
     width: 512px; height: 563.2px;}
 
 #sec3-cards {

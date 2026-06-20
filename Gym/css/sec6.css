@@ -1,0 +1,27 @@
+#sec6 {
+       height: 960px; display: grid; grid-template-columns: repeat(4, 380px); 
+       grid-template-rows: repeat(2, 380px);  margin-top: -162px;}
+
+#sec6 #grid-item { 
+    width: 380px; background: #303030;}
+
+#sec6 h5 {
+           font-family: "Archivo", sans-serif; font-weight: 600;font-size: 16px;
+           letter-spacing: 0.2em; color: #f47521; margin-top: 102.4px;}
+
+#sec6 h4 { 
+          font-family: "Oswald", sans-serif; color: #fff;
+          font-size: 33.6px; font-weight: 500; margin-top: 10px;}
+
+#sec6 p {
+         font-family: "Archivo", sans-serif; font-weight: 400;
+         font-size: 12.8px; line-height: 169%; color: #979797; margin-top: 10px;}
+
+#sec6 h6 {
+          font-family: "Archivo", sans-serif; font-weight: 700; text-transform: uppercase;
+          line-height: 144%; letter-spacing: 0.1em; font-size: 16px; color: #fff; margin-top: 30px; border-bottom: 2px solid #F47521; width: 113px; padding-bottom: 10px;}
+
+#sec6 #grid-item * { 
+    margin-left: 52px;}
+
+
