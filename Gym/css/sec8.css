@@ -1,0 +1,24 @@
+#sec8 {
+       height: 906px; }
+
+#sec8 #within {
+    font-family: "Oswald", sans-serif;  margin-left: -715px; font-weight: 600;
+    font-size: 317px; line-height: 98%;-webkit-text-stroke: 1px #444; 
+    margin-top: 178px; z-index: -1;}
+
+#sec8 #text {
+             width: 450px; margin-inline: auto; margin-top: -408px;}
+
+#sec8 #text h2 {
+                font-family: "Oswald", sans-serif; color: #fff;
+                font-size: 56px; font-weight: 500; width: 350px;
+                margin-inline: auto;}
+
+#sec8 #text p {
+                font-family: "Archivo", sans-serif; font-weight: 400;
+                font-size: 12.8px; line-height: 169%; text-align: center;
+                color: #979797; width: 450px;}
+
+#sec8 #cards {
+              width: 1707px; height: 635px;}
+

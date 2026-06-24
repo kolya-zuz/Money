@@ -1,5 +1,5 @@
 #sec6 {
-       height: 960px; display: grid; grid-template-columns: repeat(4, 380px); 
+       height: 760px; display: grid; grid-template-columns: repeat(4, 380px); 
        grid-template-rows: repeat(2, 380px);  margin-top: -162px;}
 
 #sec6 #grid-item { 
