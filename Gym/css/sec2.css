@@ -2,7 +2,7 @@
        max-width: 1520px; height: 900px; margin-top: 12px;}
 
 #sec2 #text { 
-    width: 405px; margin-left: 281.6px; margin-top: 116.8px;}
+    width: 440px; margin-left: 281.6px; margin-top: 116.8px;}
 
 #sec2 #text h1 { 
                 font-family: "Oswald", sans-serif; color: #fff;
@@ -29,7 +29,7 @@
                width: 650px; height: 547px;}
             
 .swiper-wrapper {
-    width: 650px; height: 547px;  position: relative;}
+    width: 650px; height: 550px;  position: relative;}
 
 .swiper-pagination {
     position: absolute;
@@ -58,7 +58,7 @@
     width: 70px; height: 70px;
     background: transparent; color: #FFF;
     border: 4px solid #f47521; 
-    margin-left: -50px;}
+    left: -50px;}
 
 
                

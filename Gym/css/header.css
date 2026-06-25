@@ -1,7 +1,7 @@
 header {
         background-color: #141414; height: 136px;}
 
-#box { 
+header #box { 
     max-width: 1324px; height: 136px; width: 100%; 
     border-bottom: 1px solid #444;
     background-color: #141414; margin-inline: auto;}
