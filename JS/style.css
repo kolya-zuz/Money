@@ -1,0 +1,13 @@
+button { 
+      font-size: 100px; font-weight: 400; width: 400px; height: 250px; border: none;
+      border-radius: 80px; background: #8b2207; margin-left: 300px; }
+div { 
+    margin-inline: auto; width: 200px}
+dialog {
+    width: 600px; height: 742px; font-size: 60px; margin-left: 260px; 
+    padding: 0; margin-top: -400px;}
+.open { 
+    background: #024d6f; margin-top: 170px;}
+.orange { 
+        background: #cf8805;}
+    
